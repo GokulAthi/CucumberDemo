@@ -1,0 +1,56 @@
+[
+  {
+    "source": "Google site is opened",
+    "steps": [
+      {
+        "name": "Google site is opened",
+        "aggregatedDurations": {
+          "median": 7.81,
+          "average": 7.81
+        },
+        "durations": [
+          {
+            "duration": 7.81,
+            "location": "file:///D:/Personal/Gokul/ProjectsJava/CucumberDemo/src/test/resources/features/TestGoogleSearch.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User searches for {string} keyword",
+    "steps": [
+      {
+        "name": "User searches for \u0027Test\u0027 keyword",
+        "aggregatedDurations": {
+          "median": 1.748,
+          "average": 1.748
+        },
+        "durations": [
+          {
+            "duration": 1.748,
+            "location": "file:///D:/Personal/Gokul/ProjectsJava/CucumberDemo/src/test/resources/features/TestGoogleSearch.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Search results display for {string}",
+    "steps": [
+      {
+        "name": "Search results display for \u0027Test\u0027",
+        "aggregatedDurations": {
+          "median": 0.743,
+          "average": 0.743
+        },
+        "durations": [
+          {
+            "duration": 0.743,
+            "location": "file:///D:/Personal/Gokul/ProjectsJava/CucumberDemo/src/test/resources/features/TestGoogleSearch.feature:6"
+          }
+        ]
+      }
+    ]
+  }
+]

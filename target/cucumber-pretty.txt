@@ -1,0 +1,5 @@
+
+Scenario: Search for a keyword in google # src/test/resources/features/TestGoogleSearch.feature:3
+  Given Google site is opened            # stepdefinitions.GoogleSteps.google_site_is_opened()
+  When User searches for 'Test' keyword  # stepdefinitions.GoogleSteps.user_searches_for_keyword(java.lang.String)
+  Then Search results display for 'Test' # stepdefinitions.GoogleSteps.search_results_display_for(java.lang.String)

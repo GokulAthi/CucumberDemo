@@ -1,0 +1,72 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-29T16:45:06.097Z",
+        "line": 3,
+        "name": "Search for a keyword in google",
+        "description": "",
+        "id": "test-google;search-for-a-keyword-in-google",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7810000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Google site is opened",
+            "match": {
+              "location": "stepdefinitions.GoogleSteps.google_site_is_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1748000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User searches for \u0027Test\u0027 keyword",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Test\u0027",
+                  "offset": 18
+                }
+              ],
+              "location": "stepdefinitions.GoogleSteps.user_searches_for_keyword(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 743000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Search results display for \u0027Test\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Test\u0027",
+                  "offset": 27
+                }
+              ],
+              "location": "stepdefinitions.GoogleSteps.search_results_display_for(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test Google",
+    "description": "",
+    "id": "test-google",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/TestGoogleSearch.feature",
+    "tags": []
+  }
+]
