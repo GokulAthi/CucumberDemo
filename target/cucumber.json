@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-08-29T16:45:06.097Z",
+        "start_timestamp": "2020-08-29T17:22:25.867Z",
         "line": 3,
         "name": "Search for a keyword in google",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7810000000,
+              "duration": 7994000000,
               "status": "passed"
             },
             "line": 4,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 1748000000,
+              "duration": 1367000000,
               "status": "passed"
             },
             "line": 5,
@@ -43,7 +43,7 @@
           },
           {
             "result": {
-              "duration": 743000000,
+              "duration": 1006000000,
               "status": "passed"
             },
             "line": 6,

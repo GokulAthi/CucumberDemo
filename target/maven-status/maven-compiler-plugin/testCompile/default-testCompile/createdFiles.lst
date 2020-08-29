@@ -1,1 +1,4 @@
 stepdefinitions\GoogleSteps.class
+runners\GoogleTestsRunner.class
+businessfunctions\GoogleFunctions.class
+objectrepository\GoogleObjects.class
