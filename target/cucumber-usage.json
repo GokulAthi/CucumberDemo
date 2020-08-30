@@ -5,12 +5,12 @@
       {
         "name": "Google site is opened",
         "aggregatedDurations": {
-          "median": 7.994,
-          "average": 7.994
+          "median": 9.825,
+          "average": 9.825
         },
         "durations": [
           {
-            "duration": 7.994,
+            "duration": 9.825,
             "location": "file:///D:/Personal/Gokul/ProjectsJava/CucumberDemo/src/test/resources/features/TestGoogleSearch.feature:4"
           }
         ]
@@ -23,12 +23,12 @@
       {
         "name": "User searches for \u0027Test\u0027 keyword",
         "aggregatedDurations": {
-          "median": 1.367,
-          "average": 1.367
+          "median": 1.573,
+          "average": 1.573
         },
         "durations": [
           {
-            "duration": 1.367,
+            "duration": 1.573,
             "location": "file:///D:/Personal/Gokul/ProjectsJava/CucumberDemo/src/test/resources/features/TestGoogleSearch.feature:5"
           }
         ]
@@ -41,12 +41,12 @@
       {
         "name": "Search results display for \u0027Test\u0027",
         "aggregatedDurations": {
-          "median": 1.006,
-          "average": 1.006
+          "median": 0.807,
+          "average": 0.807
         },
         "durations": [
           {
-            "duration": 1.006,
+            "duration": 0.807,
             "location": "file:///D:/Personal/Gokul/ProjectsJava/CucumberDemo/src/test/resources/features/TestGoogleSearch.feature:6"
           }
         ]
