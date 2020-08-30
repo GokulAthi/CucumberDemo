@@ -10,7 +10,8 @@ import org.junit.runner.RunWith;
         plugin={"html:target/cucumber-html-report.html", "json:target/cucumber.json",
                 "pretty:target/cucumber-pretty.txt","usage:target/cucumber-usage.json",
                 "junit:target/cucumber-results.xml"},
-        monochrome = true
+        monochrome = true,
+        tags = "@regression"
         )
 public class GoogleTestsRunner {
 }

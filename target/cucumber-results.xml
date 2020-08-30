@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="12.525">
-<testcase classname="Test Google" name="Search for a keyword in google" time="12.317">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="54.603">
+<testcase classname="Test Google" name="Search with any keyword in google" time="28.215">
+<system-out><![CDATA[Given Google site is opened.................................................passed
+When User searches for 'crazy automator' keyword............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Google" name="Search for a keyword Test in google and verify result page" time="26.116">
 <system-out><![CDATA[Given Google site is opened.................................................passed
 When User searches for 'Test' keyword.......................................passed
 Then Search results display for 'Test'......................................passed

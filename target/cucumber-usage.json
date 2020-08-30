@@ -5,13 +5,17 @@
       {
         "name": "Google site is opened",
         "aggregatedDurations": {
-          "median": 9.825,
-          "average": 9.825
+          "median": 17.7245,
+          "average": 17.7245
         },
         "durations": [
           {
-            "duration": 9.825,
-            "location": "file:///D:/Personal/Gokul/ProjectsJava/CucumberDemo/src/test/resources/features/TestGoogleSearch.feature:4"
+            "duration": 17.694,
+            "location": "file:///D:/Personal/Gokul/ProjectsJava/CucumberDemo/src/test/resources/features/TestGoogleSearch.feature:5"
+          },
+          {
+            "duration": 17.755,
+            "location": "file:///D:/Personal/Gokul/ProjectsJava/CucumberDemo/src/test/resources/features/TestGoogleSearch.feature:10"
           }
         ]
       }
@@ -21,15 +25,28 @@
     "source": "User searches for {string} keyword",
     "steps": [
       {
-        "name": "User searches for \u0027Test\u0027 keyword",
+        "name": "User searches for \u0027crazy automator\u0027 keyword",
         "aggregatedDurations": {
-          "median": 1.573,
-          "average": 1.573
+          "median": 1.301,
+          "average": 1.301
         },
         "durations": [
           {
-            "duration": 1.573,
-            "location": "file:///D:/Personal/Gokul/ProjectsJava/CucumberDemo/src/test/resources/features/TestGoogleSearch.feature:5"
+            "duration": 1.301,
+            "location": "file:///D:/Personal/Gokul/ProjectsJava/CucumberDemo/src/test/resources/features/TestGoogleSearch.feature:6"
+          }
+        ]
+      },
+      {
+        "name": "User searches for \u0027Test\u0027 keyword",
+        "aggregatedDurations": {
+          "median": 1.396,
+          "average": 1.396
+        },
+        "durations": [
+          {
+            "duration": 1.396,
+            "location": "file:///D:/Personal/Gokul/ProjectsJava/CucumberDemo/src/test/resources/features/TestGoogleSearch.feature:11"
           }
         ]
       }
@@ -41,13 +58,13 @@
       {
         "name": "Search results display for \u0027Test\u0027",
         "aggregatedDurations": {
-          "median": 0.807,
-          "average": 0.807
+          "median": 0.25,
+          "average": 0.25
         },
         "durations": [
           {
-            "duration": 0.807,
-            "location": "file:///D:/Personal/Gokul/ProjectsJava/CucumberDemo/src/test/resources/features/TestGoogleSearch.feature:6"
+            "duration": 0.25,
+            "location": "file:///D:/Personal/Gokul/ProjectsJava/CucumberDemo/src/test/resources/features/TestGoogleSearch.feature:12"
           }
         ]
       }

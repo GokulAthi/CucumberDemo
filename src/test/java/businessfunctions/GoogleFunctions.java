@@ -7,7 +7,6 @@ public class GoogleFunctions extends GoogleObjects {
     SeleniumWrapperMethods seleniumWrapperMethods = new SeleniumWrapperMethods();
 
     public void openGoogleSite(){
-        seleniumWrapperMethods.setupWebDriver();
         seleniumWrapperMethods.openURL("https://www.google.com/");
     }
 
@@ -20,6 +19,5 @@ public class GoogleFunctions extends GoogleObjects {
     public void verifySearchResults(String keyword){
         seleniumWrapperMethods.waitForDisplayOfElement(resultStats);
         seleniumWrapperMethods.waitForDisplayOfElement(googleSpeedTestLink);
-        seleniumWrapperMethods.cleanupWebDriver();
     }
 }

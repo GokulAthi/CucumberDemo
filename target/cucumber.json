@@ -3,20 +3,42 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-08-30T10:53:46.440Z",
-        "line": 3,
-        "name": "Search for a keyword in google",
+        "start_timestamp": "2020-08-30T11:29:47.133Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8400000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.CommonSteps.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Search with any keyword in google",
         "description": "",
-        "id": "test-google;search-for-a-keyword-in-google",
+        "id": "test-google;search-with-any-keyword-in-google",
+        "after": [
+          {
+            "result": {
+              "duration": 696000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.CommonSteps.cleanUp()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 9825000000,
+              "duration": 17694000000,
               "status": "passed"
             },
-            "line": 4,
+            "line": 5,
             "name": "Google site is opened",
             "match": {
               "location": "stepdefinitions.GoogleSteps.google_site_is_opened()"
@@ -25,10 +47,81 @@
           },
           {
             "result": {
-              "duration": 1573000000,
+              "duration": 1301000000,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
+            "name": "User searches for \u0027crazy automator\u0027 keyword",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027crazy automator\u0027",
+                  "offset": 18
+                }
+              ],
+              "location": "stepdefinitions.GoogleSteps.user_searches_for_keyword(java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-30T11:30:15.368Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5989000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.CommonSteps.setUp()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Search for a keyword Test in google and verify result page",
+        "description": "",
+        "id": "test-google;search-for-a-keyword-test-in-google-and-verify-result-page",
+        "after": [
+          {
+            "result": {
+              "duration": 726000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.CommonSteps.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17755000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Google site is opened",
+            "match": {
+              "location": "stepdefinitions.GoogleSteps.google_site_is_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1396000000,
+              "status": "passed"
+            },
+            "line": 11,
             "name": "User searches for \u0027Test\u0027 keyword",
             "match": {
               "arguments": [
@@ -43,10 +136,10 @@
           },
           {
             "result": {
-              "duration": 807000000,
+              "duration": 250000000,
               "status": "passed"
             },
-            "line": 6,
+            "line": 12,
             "name": "Search results display for \u0027Test\u0027",
             "match": {
               "arguments": [
@@ -58,6 +151,11 @@
               "location": "stepdefinitions.GoogleSteps.search_results_display_for(java.lang.String)"
             },
             "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
           }
         ]
       }
